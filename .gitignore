@@ -1,0 +1,103 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.db
+*.sqlite3
+
+# --- Virtual Environment ---
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# --- Environment Variables ---
+*.env
+.env.local
+.env.development
+.env.production
+
+# --- Logs ---
+*.log
+logs/
+debug.log
+
+# --- IDE / Editor Files ---
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Byte-compiled / cache ---
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+__pycache__/
+*.manifest
+*.spec
+
+# --- Distribution / Packaging ---
+build/
+develop-eggs/
+dist/
+downloads/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Testing ---
+.pytest_cache/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.tox/
+.cache/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+
+# --- FastAPI / Uvicorn ---
+*.db-journal
+*.sqlite
+*.sqlite3
+*.pid
+
+# --- AI / LangChain Files ---
+vectorstore/
+chroma/
+*.jsonl
+*.json.gz
+
+# --- PDFs / Uploaded Files ---
+static/docs/
+static/uploads/
+*.pdf
+
+# --- Temporary Files ---
+tmp/
+temp/
+*.tmp
+
+# --- OS Files ---
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+data/
